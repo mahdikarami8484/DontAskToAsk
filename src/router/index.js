@@ -64,8 +64,8 @@ const routes = [
         component: ProjectView,
         meta: {
             title: 'اینطوری پروژه ات رو بزار !',
-            accent: '#009f7b',
-            gradient: 'linear-gradient(45deg, hsla(190,100%,28.4%,1) 0%, hsla(162,100%,73.5%,1) 100%);',
+            accent: '#fcad03',
+            gradient: 'linear-gradient(215deg, #fcdc97 0%, #fcad03 100%);',
         }
     },
     {
