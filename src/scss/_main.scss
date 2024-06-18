@@ -138,6 +138,19 @@ select {
                 background-image: var(--hr-correct);
             }
         }
+
+        &.scenario-info {
+            background: var(--scenario-info);
+            border-color: var(--border-info);
+            
+            h2 {
+                color: var(--h2-info);
+            }
+
+            hr {
+                background-image: var(--hr-info);
+            }
+        }
     }
 
 }

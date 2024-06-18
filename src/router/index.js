@@ -5,6 +5,7 @@ import XYView from '../views/XYView.vue'
 import NoHelloView from '../views/NoHelloView.vue'
 import NoPvView from '../views/NoPvView.vue'
 import NoCodeView from '../views/NoCodeView.vue'
+import ProjectView from '../views/ProjectView.vue'
 
 const routes = [
     {
@@ -58,13 +59,23 @@ const routes = [
         }
     },
     {
+        path: '/project',
+        name: 'project',
+        component: ProjectView,
+        meta: {
+            title: 'اینطوری پروژه ات رو بزار !',
+            accent: '#009f7b',
+            gradient: 'linear-gradient(45deg, hsla(190,100%,28.4%,1) 0%, hsla(162,100%,73.5%,1) 100%);',
+        }
+    },
+    {
         path: '/xyproblem',
         redirect: '/xy',
     },
     {
         path: '/:any(.*)',
         redirect: '/',
-    }
+    },
 ]
 
 const router = createRouter({
